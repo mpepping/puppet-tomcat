@@ -1,5 +1,4 @@
-Readme
-------
+# Readme
 
 This is a puppet-module to install (or remove) a tomcat instance and deploy one or more webapplications. Tested and developed on RHEL and CentOS.
 
@@ -10,3 +9,4 @@ $ wget http://www.eu.apache.org/dist/tomcat/tomcat-7/v7.0.39/bin/apache-tomcat-7
 
 Adjust $tomcat::params::tomcatversion to the tomcat version you plan on using.
 
+Adjust  params.pp to match your setup.
